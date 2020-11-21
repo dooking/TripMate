@@ -23,10 +23,6 @@ def start(request):
 def main(request, num=0):
     alltrips = Trip.objects.all()
     mytrips = Trip.objects.all()
-
-    print(mytrips,'mytrips')
-    print(alltrips, 'alltrips')
-
     mytrip = None
 
     # initial numbers 
